@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_card"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="6dp">
+    <ImageView
+        android:id="@+id/imgShortcutIcon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Shortcut Icon"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp">
+        <TextView
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:ellipsize="end"
+            android:id="@+id/txtShortcutLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+        <TextView
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:ellipsize="middle"
+            android:id="@+id/txtShortcutPath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btnEditShortcut"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:contentDescription="Edit shortcut"
+        app:srcCompat="@drawable/ic_edit"
+        app:tint="@color/secondary"/>
+    <ImageButton
+        android:id="@+id/btnPinShortcut"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:contentDescription="Pin to home screen"
+        app:srcCompat="@drawable/ic_shortcut"
+        app:tint="@color/primary"/>
+    <ImageButton
+        android:id="@+id/btnDeleteShortcut"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:padding="6dp"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:contentDescription="Delete shortcut"
+        app:srcCompat="@drawable/ic_delete"
+        app:tint="@color/accent_red"/>
+</LinearLayout>
