@@ -8,6 +8,12 @@
 
 ---
 
+### ❓ Naming & Compatibility
+- 🏷️ **Why "Folder Shortcut"?**: It is named **Folder Shortcut** because it specifically creates home screen shortcuts for **folders/directories only** (not individual files), providing focused folder navigation.
+- 📱 **Wide Android Version Support**: Built to support legacy devices running **Android KitKat (4.4.4 / API level 19)** all the way to the **latest Android versions (Android 14+ / API level 34)**.
+
+---
+
 **Folder Shortcut** is a clean, utility Android application that allows users to create customized home screen shortcuts for any folder on their device storage.
 
 ## 🚀 Key Features
@@ -31,7 +37,7 @@
 
 - **Language**: Kotlin / Java
 - **Package**: `com.foldershortcut.app`
-- **Target SDK**: Android 14 (API 34)
+- **Compatibility**: Android 4.4.4 (KitKat / API 19) to Android 14+ (API 34)
 - **UI Framework**: AndroidX, Material Design 3, ViewBinding, RecyclerView
 - **Permissions**: `READ_EXTERNAL_STORAGE`, `MANAGE_EXTERNAL_STORAGE`, `INSTALL_SHORTCUT`
 
