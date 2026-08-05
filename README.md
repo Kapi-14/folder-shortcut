@@ -1,4 +1,12 @@
-# Folder Shortcut (Android App)
+# 📁 Folder Shortcut (Android App)
+
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](FolderShortcut-v1.0.0.apk)
+
+> 📲 **Direct APK Download**: You can download the ready-to-install APK file directly from this repository:
+> - 📥 **[Download FolderShortcut-v1.0.0.apk](FolderShortcut-v1.0.0.apk)**
+> - 📦 **[View GitHub Releases](https://github.com/Kapi-14/folder-shortcut/releases)**
+
+---
 
 **Folder Shortcut** is a clean, utility Android application that allows users to create customized home screen shortcuts for any folder on their device storage.
 
@@ -13,6 +21,12 @@
 - 📂 **Built-in Folder Browser**: Tap shortcuts to launch a clean, built-in file viewer with back-stack navigation.
 - ⚡ **Seamless Android Integration**: Uses Android `ShortcutManager` and `INSTALL_SHORTCUT` API for 1-tap pinning.
 
+## 📥 Installation
+
+1. Download [`FolderShortcut-v1.0.0.apk`](FolderShortcut-v1.0.0.apk) directly from this repository.
+2. Enable "Install from Unknown Sources" on your Android device if prompted.
+3. Open and install the `.apk` file.
+
 ## 🛠️ Tech Stack & Architecture
 
 - **Language**: Kotlin / Java
@@ -21,11 +35,11 @@
 - **UI Framework**: AndroidX, Material Design 3, ViewBinding, RecyclerView
 - **Permissions**: `READ_EXTERNAL_STORAGE`, `MANAGE_EXTERNAL_STORAGE`, `INSTALL_SHORTCUT`
 
-## 💻 How to Build & Run
+## 💻 How to Build & Run from Source
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/folder-shortcut.git
+   git clone https://github.com/Kapi-14/folder-shortcut.git
    ```
 2. Open the project folder in **Android Studio**.
 3. Sync Gradle dependencies.
